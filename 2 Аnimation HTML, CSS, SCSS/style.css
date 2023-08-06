@@ -1,0 +1,209 @@
+@keyframes duck-fly-1 {
+  0% {
+    left: -105px;
+    top: 55vh;
+  }
+  50% {
+    left: 47vw;
+    top: 24vh;
+  }
+  100% {
+    left: 100vw;
+    top: 79vh;
+  }
+}
+@keyframes duck-fly-2 {
+  0% {
+    left: -105px;
+    top: 21vh;
+  }
+  50% {
+    left: 24vw;
+    top: 44vh;
+  }
+  100% {
+    left: 100vw;
+    top: 64vh;
+  }
+}
+@keyframes duck-fly-3 {
+  0% {
+    left: -105px;
+    top: 1vh;
+  }
+  50% {
+    left: 47vw;
+    top: 72vh;
+  }
+  100% {
+    left: 100vw;
+    top: 53vh;
+  }
+}
+@keyframes duck-fly-4 {
+  0% {
+    left: -105px;
+    top: 32vh;
+  }
+  50% {
+    left: 7vw;
+    top: 85vh;
+  }
+  100% {
+    left: 100vw;
+    top: 7vh;
+  }
+}
+@keyframes duck-fly-5 {
+  0% {
+    left: -105px;
+    top: 1vh;
+  }
+  50% {
+    left: 3vw;
+    top: 46vh;
+  }
+  100% {
+    left: 100vw;
+    top: 87vh;
+  }
+}
+@keyframes duck-fly-6 {
+  0% {
+    left: -105px;
+    top: 32vh;
+  }
+  50% {
+    left: 46vw;
+    top: 16vh;
+  }
+  100% {
+    left: 100vw;
+    top: 69vh;
+  }
+}
+@keyframes duck-fly-7 {
+  0% {
+    left: -105px;
+    top: 40vh;
+  }
+  50% {
+    left: 34vw;
+    top: 73vh;
+  }
+  100% {
+    left: 100vw;
+    top: 72vh;
+  }
+}
+@keyframes duck-fly-8 {
+  0% {
+    left: -105px;
+    top: 29vh;
+  }
+  50% {
+    left: 15vw;
+    top: 65vh;
+  }
+  100% {
+    left: 100vw;
+    top: 57vh;
+  }
+}
+@keyframes duck-fly-9 {
+  0% {
+    left: -105px;
+    top: 41vh;
+  }
+  50% {
+    left: 4vw;
+    top: 11vh;
+  }
+  100% {
+    left: 100vw;
+    top: 83vh;
+  }
+}
+@keyframes duck-fly-10 {
+  0% {
+    left: -105px;
+    top: 29vh;
+  }
+  50% {
+    left: 34vw;
+    top: 72vh;
+  }
+  100% {
+    left: 100vw;
+    top: 9vh;
+  }
+}
+body {
+  counter-reset: count;
+  height: 100vh;
+  margin: 0;
+  background-image: url(https://i.ytimg.com/vi/i9R8MqilMW8/maxresdefault.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+}
+
+.duck-check {
+  position: absolute;
+  visibility: hidden;
+  left: -999999px;
+}
+.duck-check:checked {
+  counter-increment: count;
+}
+.duck-check:checked ~ label {
+  display: none;
+}
+
+.counter-info {
+  position: absolute;
+  top: 14px;
+  right: 24px;
+}
+.counter-info::before {
+  content: counter(count);
+}
+
+.duck {
+  position: absolute;
+}
+.duck__img {
+  width: 105px;
+}
+.duck_1 {
+  animation: duck-fly-1 5s ease-in 1s both;
+}
+.duck_2 {
+  animation: duck-fly-2 5s ease-in 2s both;
+}
+.duck_3 {
+  animation: duck-fly-3 5s ease-in 3s both;
+}
+.duck_4 {
+  animation: duck-fly-4 5s ease-in 4s both;
+}
+.duck_5 {
+  animation: duck-fly-5 5s ease-in 5s both;
+}
+.duck_6 {
+  animation: duck-fly-6 5s ease-in 6s both;
+}
+.duck_7 {
+  animation: duck-fly-7 5s ease-in 7s both;
+}
+.duck_8 {
+  animation: duck-fly-8 5s ease-in 8s both;
+}
+.duck_9 {
+  animation: duck-fly-9 5s ease-in 9s both;
+}
+.duck_10 {
+  animation: duck-fly-10 5s ease-in 10s both;
+}/*# sourceMappingURL=style.css.map */
