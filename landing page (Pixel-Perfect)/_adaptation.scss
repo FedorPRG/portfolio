@@ -1,0 +1,225 @@
+@media screen and (max-width: 1439px) {
+  body {
+    scroll-behavior: smooth;
+  }
+  .hidden_375 {
+    visibility: hidden;
+  }
+
+  .yandex_Logo_1440 {
+    scale: 0.63636363;
+    margin-left: -32px;
+  }
+
+  .center {
+    padding-left: calc(50% - 375px / 2);
+    padding-right: calc(50% - 375px / 2);
+  }
+  .welcome {
+    padding-top: 0px;
+    margin-top: 22px;
+    padding-bottom: 283.5px;
+
+    &__content {
+      padding-left: 32px;
+    }
+    &__title {
+      margin-top: 14px;
+      width: 215px;
+      font-size: 36px;
+      line-height: 36px;
+      letter-spacing: -0.7px;
+    }
+    &__text {
+      width: 310px;
+      margin-top: 24.5px;
+      font-size: 18px;
+      line-height: 23.4px;
+    }
+    &__priceNew {
+      padding: 1px 7px;
+      line-height: 21.6px;
+    }
+    &__priceOld {
+      padding: 3px 10px 4px 4px;
+      line-height: 15.6px;
+
+      font-size: 13px;
+    }
+    &__button {
+      display: none;
+    }
+    &__button_375 {
+      padding: 13px 45px;
+      display: block;
+      position: fixed;
+      bottom: 10%;
+      margin-left: calc((100vw - 325px) / 2);
+      z-index: 10;
+    }
+    &__imgBack {
+      display: none;
+      &_375 {
+        display: block;
+      }
+    }
+    &__imgSmkt {
+      scale: 0.43;
+      top: 63px;
+      left: -230px;
+    }
+    &__imgRectangle {
+      scale: 0.41;
+      top: 356.5px;
+      left: 43px;
+    }
+    &__imgBack5 {
+      display: none;
+    }
+  }
+  .privilege {
+    &__content {
+      padding-left: 32px;
+    }
+    &__title {
+      width: 270px;
+      font-size: 32px;
+      line-height: 32px;
+      letter-spacing: -0.7px;
+      margin-bottom: 27px;
+    }
+
+    &__text {
+      display: none;
+    }
+    &__img {
+      display: none;
+    }
+    &__img_375 {
+      display: block;
+    }
+    &__wrapper {
+      row-gap: 1px;
+    }
+    &__wrapper_375 {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+  }
+  .events {
+    &__content {
+      padding-top: 68px;
+      padding-left: 32px;
+    }
+    &__title {
+      width: 311px;
+      font-size: 32px;
+      line-height: 32px;
+      letter-spacing: -0.7px;
+    }
+    &__text {
+      display: none;
+      &_375 {
+        display: block;
+        margin-top: 25px;
+        margin-bottom: 44px;
+      }
+    }
+    &__sticker_375 {
+      display: none;
+    }
+    &__wrapper {
+      height: 344px;
+      rotate: 0deg;
+      position: relative;
+    }
+    &__img {
+      margin-left: -17px;
+      border-radius: 51px;
+      width: 344px;
+      position: absolute;
+      top: 0;
+    }
+    &__img:nth-child(even) {
+      position: absolute;
+      top: 0px;
+    }
+    &__sticker {
+      &_2 {
+        position: absolute;
+        scale: 0.5;
+        top: 226px;
+        left: 132px;
+        z-index: 5;
+      }
+    }
+    &__arrow {
+      margin-top: 24px;
+      gap: 12px;
+      margin-left: -33px;
+      display: flex;
+      justify-content: center;
+    }
+  }
+  .bonus {
+    &__content {
+      margin-top: 68px;
+      padding-left: 32px;
+      position: relative;
+    }
+    &__wrapper {
+      width: 300px;
+      gap: 23px;
+      &_right {
+        width: 600px;
+        margin-top: -92px;
+        padding-left: 0px;
+      }
+    }
+    &__title {
+      width: 311px;
+      font-size: 32px;
+      line-height: 32px;
+      letter-spacing: -0.6px;
+    }
+    &__text {
+      font-size: 16px;
+      line-height: 19.2px;
+      letter-spacing: 0px;
+    }
+    &__imgBack3_375,
+    &__imgSmkt2_375,
+    &__imgPlus_375 {
+      display: none;
+    }
+    &__imgBack4_375 {
+      display: none;
+    }
+    &__imgSmkt3_375 {
+      display: none;
+    }
+    &__imgSmkt4_375 {
+      display: block;
+      margin-top: -69px;
+      margin-left: -32px;
+    }
+    &__button {
+      width: 139px;
+      margin-top: 4px;
+      padding: 13px 86px;
+      font-size: 18px;
+    }
+  }
+  .footer {
+    &__content {
+      padding-top: 74px;
+      padding-left: 32px;
+      padding-right: 32px;
+    }
+    &__text {
+      font-size: 10px;
+      letter-spacing: 0.03px;
+    }
+  }
+}
